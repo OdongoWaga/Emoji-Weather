@@ -21,6 +21,11 @@ Pressing on a city leads to a modal with more weather conditions contained.
  <br>
 <img height="700" src="https://github.com/OdongoWaga/Emoji-Weather/blob/master/assets/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202019-07-10%20at%2016.23.08.png?raw=true" />
  <br>
+ <br>
+<img height="700" src="https://github.com/OdongoWaga/Emoji-Weather/blob/master/assets/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202019-07-10%20at%2016.22.54.png?raw=true" />
+ <br>
+
+
 
 
 
