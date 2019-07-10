@@ -47,14 +47,10 @@ export default class App extends React.Component {
                 }else{
                 var city = {
                     name: obj.name,
-                    //country: country,
                     temp: Math.ceil(r.temp),
                     type: obj.weather[0].main,
                     desc: 'Humidity: '+r.humidity+"% - "+obj.weather[0].main
                 };
-
-                //newList.push(city);
-                //console.log(this.state.list);
 
                 this.setState({
                    item:city,

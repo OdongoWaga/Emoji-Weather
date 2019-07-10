@@ -117,11 +117,6 @@ export default class App extends React.Component {
             newAlert: 0
 
         }
-
-        // this.fetchCityTemp('London','UK');
-        //var list=this.getRandom(this.state.cities,5);
-        // console.log(list)
-
         this.fetchTemps();
     }
 
