@@ -11,104 +11,104 @@ export default class App extends React.Component {
 
             cities: [
                 {
-                    name: "Bucharest",
-                    country: "Romania"
+                    name: "Nairobi",
+                    country: "Kenya"
                 },
                 {
-                    name: "Timisoara",
-                    country: "Romania"
+                    name: "Arusha",
+                    country: "Tanzania"
                 },
                 {
-                    name: "Arad",
-                    country: "Romania"
+                    name: "Kigali",
+                    country: "Rwanda"
                 },
                 {
-                    name: "Resita",
-                    country: "Romania"
+                    name: "Bujumbura",
+                    country: "Burundi"
                 },
                 {
-                    name: "Oradea",
-                    country: "Romania"
+                    name: "Algiers",
+                    country: "Algeria"
                 },
                 {
-                    name: "Caransebes",
-                    country: "Romania"
+                    name: "Kampala",
+                    country: "Uganda"
                 },
                 {
-                    name: "Deva",
-                    country: "Romania"
+                    name: "Mogadishu",
+                    country: "Somalia"
                 },
                 {
-                    name: "Lugoj",
-                    country: "Romania"
+                    name: "Cairo",
+                    country: "Egypt"
                 },
                 {
-                    name: "Iasi",
-                    country: "Romania"
+                    name: "Niamey",
+                    country: "Niger"
                 },
                 {
-                    name: "Madrid",
-                    country: "Spain"
+                    name: "Accra",
+                    country: "Ghana"
                 },
                 {
-                    name: "Berlin",
-                    country: "Germany"
+                    name: "Abuja",
+                    country: "Nigeria"
                 },
                 {
-                    name: "Brussels",
-                    country: "Belgium"
+                    name: "Maseru",
+                    country: "Lesotho"
                 },
                 {
-                    name: "Copenhagen",
-                    country: "Denmark"
+                    name: "Gaberone",
+                    country: "Botswana"
                 },
                 {
-                    name: "Athens",
-                    country: "Greece"
+                    name: "Juba",
+                    country: "South Sudan"
                 },
                 {
-                    name: "Baia Mare",
-                    country: "Romania"
+                    name: "Lusaka",
+                    country: "Zambia"
                 },
                 {
-                    name: "Dublin",
-                    country: "Ireland"
+                    name: "Khartoum",
+                    country: "Sudan"
                 },
                 {
-                    name: "Rome",
-                    country: "Italy"
+                    name: "Conakry",
+                    country: "Guinea"
                 },
                 {
-                    name: "Tokyo",
-                    country: "Japan"
+                    name: "Addis Ababa",
+                    country: "Ethiopia"
                 },
                 {
-                    name: "Constanta",
-                    country: "Romania"
+                    name: "Bamako",
+                    country: "Mali"
                 },
                 {
-                    name: "Amsterdam",
-                    country: "Netherlands"
+                    name: "Bissau",
+                    country: "Guinea Bissau"
                 },
                 {
-                    name: "Oslo",
-                    country: "Norway"
+                    name: "Dakar",
+                    country: "Senegal"
                 },
                 {
-                    name: "Panama City",
-                    country: "Panama"
+                    name: "Libreville",
+                    country: "Gabon"
                 },
                 {
-                    name: "Lisbon",
-                    country: "Portugal"
+                    name: "Luanda",
+                    country: "Angola"
                 },
                 {
-                    name: "Warsaw",
-                    country: "Poland"
+                    name: "Malabo",
+                    country: "Equatorial Guinea"
                 },
                 {
-                    name: "Moscow",
-                    country: "Russia"
+                    name: "Rabat",
+                    country: "Morocco"
                 }
             ],
 
@@ -150,7 +150,7 @@ export default class App extends React.Component {
 
     fetchCityTemp = (city, country, newList) => {
 
-        fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country + '&appid=0319684c7b3712fb36176a78afa28823&units=metric')
+        fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country + '&appid=f4b58c091d7b89deb9eecc00ab6f2146&units=metric')
             .then((response) => response.json())
             .then((responseJson) => {
                 var r = responseJson.main;
@@ -232,7 +232,7 @@ export default class App extends React.Component {
         return (
             <View style={styles.container}>
                 <StatusBar barStyle='light-content' />
-                <Text style={{ width: '100%', paddingTop: 40, paddingBottom: 15, backgroundColor: 'black', color: 'white', textAlign: 'center', fontWeight: 'bold' }}>🔆 Big City Weather </Text>
+                <Text style={{ width: '100%', paddingTop: 40, paddingBottom: 15, backgroundColor: 'black', color: 'white', textAlign: 'center', fontWeight: 'bold' }}>🔆 African City Weather </Text>
                 <FlatList
                     style={{ width: '100%' }}
                     data={this.state.list}
