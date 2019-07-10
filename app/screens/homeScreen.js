@@ -227,7 +227,7 @@ export default class App extends React.Component {
         return (
             <View style={styles.container}>
                 <StatusBar barStyle='light-content' />
-                <Text style={{ width: '100%', paddingTop: 40, paddingBottom: 15, backgroundColor: 'black', color: 'white', textAlign: 'center', fontWeight: 'bold' }}>🔆 African City Weather </Text>
+                <Text style={{ width: '100%', paddingTop: 40, paddingBottom: 15, backgroundColor: 'black', color: 'white', textAlign: 'center', fontWeight: 'bold' }}>🔆 Emoji City Weather </Text>
                 <FlatList
                     style={{ width: '100%' }}
                     data={this.state.list}

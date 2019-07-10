@@ -110,8 +110,8 @@ export default class App extends React.Component {
         return (
             <View style={styles.container}>
                 <StatusBar barStyle='light-content' />
-                <Text style={{width:'100%',textAlign:'center', paddingTop: 40, paddingBottom: 15, backgroundColor: 'blue', color: 'white', textAlign: 'center', fontWeight: 'bold'}}>
-                🔆 African City Weather </Text>
+                <Text style={{width:'100%',textAlign:'center', paddingTop: 40, paddingBottom: 15, backgroundColor: 'black', color: 'white', textAlign: 'center', fontWeight: 'bold'}}>
+                🔆 Emoji City Search </Text>
 
                 <View style={{alignItems: 'center', width:'90%'}}>
                     <Text style={{textAlign: 'center', lineHeight: 20, padding: 5, fontSize: 16}}>Search for a city</Text>
